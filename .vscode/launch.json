@@ -1,0 +1,73 @@
+{ 
+    // Configuration for permutation of Flutter modes and running environments 
+    //
+    "version": "0.2.0",
+    "configurations": [
+
+        // Options for the DEVEVELOP flavor
+        {
+            "name": "flavors-dev-debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart"
+        },
+        {
+            "name": "flavors-dev-profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_dev.dart"
+        },
+        {
+            "name": "flavors-dev-release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_dev.dart"
+        },
+
+        // Options for the STAGE flavor
+        {
+            "name": "flavors-stg-debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_stg.dart"
+        },
+        {
+            "name": "flavors-stg-profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_stg.dart"
+        },
+        {
+            "name": "flavors-stg-release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_stg.dart"
+        },
+
+        // Options for the PRODUCTION flavor
+        {
+            "name": "flavors-prod-debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart"
+        },
+        {
+            "name": "flavors-prod-profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_prod.dart"
+        },
+        {
+            "name": "flavors-prod-release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_prod.dart"
+        }
+    ]
+}
